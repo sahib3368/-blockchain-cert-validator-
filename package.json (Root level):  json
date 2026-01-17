@@ -1,0 +1,14 @@
+{
+  "name": "blockchain-cert-validator",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "truffle migrate --network development",
+    "start": "concurrently \"ganache\" \"truffle migrate\"",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "truffle": "^5.7.5"
+  }
+}
