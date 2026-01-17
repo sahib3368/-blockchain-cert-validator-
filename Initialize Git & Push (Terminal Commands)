@@ -1,0 +1,17 @@
+# Navigate to your project folder
+cd blockchain-cert-validator
+
+# Initialize Git repository
+git init
+
+# Add all files
+git add .
+
+# First commit
+git commit -m "BTech Blockchain Certificate Validator - Complete Implementation"
+
+# Connect to GitHub
+git remote add origin https://github.com/YOUR_USERNAME/blockchain-cert-validator.git
+
+# Push to GitHub
+git push -u origin main
