@@ -1,0 +1,12 @@
+blockchain-cert-validator/
+├── README.md
+├── contracts/
+│   └── CertValidator.sol          # Copy from my previous response
+├── client/                        # React frontend files
+│   ├── package.json
+│   └── src/App.js                 # Copy React code
+├── server/                        # Node.js backend
+│   ├── package.json
+│   └── server.js                  # Copy Node.js code
+├── truffle-config.js
+└── vercel.json                    # For auto-deployment
